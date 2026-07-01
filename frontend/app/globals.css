@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f5f7fb;
+  color: #111827;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+.command {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

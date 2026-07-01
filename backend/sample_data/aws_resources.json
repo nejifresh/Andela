@@ -1,0 +1,36 @@
+[
+  {
+    "provider": "aws",
+    "account_id": "222222222222",
+    "region": "us-east-2",
+    "service": "EC2",
+    "resource_id": "vol-0json111",
+    "resource_name": "json-orphaned-volume",
+    "resource_type": "AWS::EC2::Volume",
+    "usage_start_date": "2026-06-01",
+    "usage_end_date": "2026-06-30",
+    "cost": 37.2,
+    "currency": "USD",
+    "tags": {"owner": "data"},
+    "state": "available",
+    "attached_to": null
+  },
+  {
+    "provider": "aws",
+    "account_id": "222222222222",
+    "region": "us-east-2",
+    "service": "EC2",
+    "resource_id": "i-0busy999",
+    "resource_name": "busy-instance",
+    "resource_type": "ec2_instance",
+    "usage_start_date": "2026-06-01",
+    "usage_end_date": "2026-06-30",
+    "cost": 125.0,
+    "currency": "USD",
+    "tags": {"owner": "search"},
+    "state": "running",
+    "cpu_p95": 54.2,
+    "network_in_mb": 4500,
+    "network_out_mb": 4200
+  }
+]

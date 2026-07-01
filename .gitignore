@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+cloudwaste.db
+backend/cloudwaste.db
+.next/
+node_modules/
+dist/
+coverage/
+.DS_Store

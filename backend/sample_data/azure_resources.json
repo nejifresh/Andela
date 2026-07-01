@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "provider": "azure",
+      "subscription_id": "sub-222",
+      "resource_group": "rg-json",
+      "location": "centralus",
+      "resource_id": "/subscriptions/sub-222/resourceGroups/rg-json/providers/Microsoft.Compute/disks/disk-json-orphan-01",
+      "resource_name": "disk-json-orphan-01",
+      "resource_type": "Microsoft.Compute/disks",
+      "meter_category": "Storage",
+      "cost": 26.8,
+      "currency": "USD",
+      "date": "2026-06-30",
+      "tags": {"owner": "platform"},
+      "disk_state": "Unattached",
+      "managed_by": null
+    },
+    {
+      "provider": "azure",
+      "subscription_id": "sub-222",
+      "resource_group": "rg-json",
+      "location": "centralus",
+      "resource_id": "/subscriptions/sub-222/resourceGroups/rg-json/providers/Microsoft.Compute/virtualMachines/vm-busy-01",
+      "resource_name": "vm-busy-01",
+      "resource_type": "Microsoft.Compute/virtualMachines",
+      "meter_category": "Virtual Machines",
+      "cost": 151.0,
+      "currency": "USD",
+      "date": "2026-06-30",
+      "tags": {"owner": "batch"},
+      "power_state": "PowerState/running",
+      "cpu_p95": 41.8,
+      "network_in_mb": 2300,
+      "network_out_mb": 2700
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+provider,account_id,region,service,resource_id,resource_name,resource_type,usage_start_date,usage_end_date,cost,currency,tags,state,attached_to,cpu_p95,network_in_mb,network_out_mb
+aws,111111111111,us-east-1,EC2,vol-0aaa111,orphaned-dev-volume,ebs_volume,2026-06-01,2026-06-30,42.50,USD,owner=platform,available,,,,
+aws,111111111111,us-east-1,EC2,vol-0bbb222,attached-prod-volume,ebs_volume,2026-06-01,2026-06-30,28.25,USD,owner=payments,in-use,i-0attached,,,
+aws,111111111111,us-east-1,EC2,vol-0ccc333,protected-archive-volume,AWS::EC2::Volume,2026-06-01,2026-06-30,19.75,USD,keep=true,available,,,,
+aws,111111111111,us-west-2,EC2,i-0idle111,staging-idle-instance,ec2_instance,2026-06-01,2026-06-30,96.80,USD,owner=analytics,running,,2.1,22,31
+aws,111111111111,us-west-2,EC2,i-0metrics222,unknown-utilization-instance,AWS::EC2::Instance,2026-06-01,2026-06-30,110.00,USD,owner=unknown,running,,,,
