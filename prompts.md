@@ -692,3 +692,16 @@ Implementation summary:
 - Added Docker Makefile targets.
 - Verified backend tests, eval harness, and frontend build.
 - Docker image build was attempted but could not complete because the Docker daemon was not running locally.
+
+---
+
+## 22. Presentation Deck Prompt Used With Codex
+
+```text
+Make the beautiful AI-generated Presentation Deck (PPT or Markdown solution).
+```
+
+Implementation summary:
+- Rebuilt `presentation_deck.md` as a polished Marp-compatible Markdown presentation.
+- Added visual slide styling, executive narrative, persona framing, architecture flow, data model, detection rules, trust layer, remediation example, workflow, dashboard overview, demo results, API surface, production roadmap, deployment story, and export instructions.
+- Kept the deck Markdown-first so it can be exported to PPTX or PDF with Marp.
